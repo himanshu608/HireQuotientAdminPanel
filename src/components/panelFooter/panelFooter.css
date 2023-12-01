@@ -1,0 +1,31 @@
+.panelFooterWrapper{
+    padding: 8px;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+}
+.selectedPages{
+    flex: 2;
+}
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.pageNumber{
+    flex: 1;
+}
+
+.pageLists{
+    flex:2;
+    display: flex;
+    align-items: center;
+}
+
+.paginationButton{
+    margin-left: 5px;
+}

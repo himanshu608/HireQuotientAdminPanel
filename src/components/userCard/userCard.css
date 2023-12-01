@@ -1,0 +1,32 @@
+.maindiv{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 8px;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+}
+.checkbox {
+    flex: 0.4;
+}
+.name{
+    flex: 2;
+}
+.email{
+    flex: 2;
+}
+.role{
+    flex: 1;
+}
+.actionButtons{
+    flex: 1;
+    display: flex;
+}
+
+.actionButtons button{
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}

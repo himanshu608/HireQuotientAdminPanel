@@ -1,0 +1,23 @@
+.searchWrapper{
+    padding: 8px;
+    margin: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.panelSearch{
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.deleteSelectedButton{
+    background-color: crimson;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 40px;
+    height: 100%;
+    cursor: pointer;
+}
